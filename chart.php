@@ -67,7 +67,8 @@
     });
 
     document.getElementById('downloadPdf').addEventListener('click', function() {
-        const { jsPDF } = window.jspdf; // Perbaikan destructuring jsPDF
+        const { jsPDF } = window
+        .jspdf; // Perbaikan destructuring jsPDF
         const pdf = new jsPDF();
         const canvas = document.getElementById('myChart');
         const imgData = canvas.toDataURL('image/png'); // Perbaikan fungsi toDataURL
