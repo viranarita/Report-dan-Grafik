@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Grafik Dasar</title>
+    <title>Praktikum Grafik Dasar</title>
 </head>
 <body>
     <canvas id="myChart" style="position: relative; height: 50vh; width: 75vw;"></canvas>
